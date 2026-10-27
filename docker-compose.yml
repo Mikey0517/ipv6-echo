@@ -10,3 +10,6 @@ services:
     restart: unless-stopped
     networks:
       - edge
+networks:
+  edge:
+    external: true
