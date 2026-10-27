@@ -8,3 +8,5 @@ services:
       TRUST_PROXY: "true"
       CORS_ORIGIN: "*"
     restart: unless-stopped
+    networks:
+      - edge
